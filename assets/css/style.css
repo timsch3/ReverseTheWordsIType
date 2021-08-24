@@ -6,12 +6,13 @@ body {
     font-size: 2rem;
     background-color: #000;
     color: #fff;
+    text-align: center;
 }
 
 input {
     margin-top: 5vh;
+    padding: 2vh 0;
     min-width: 80vw;
-    min-height: 25vh;
     font-size: 2rem;
     text-align: center;
     background-color: #000;
