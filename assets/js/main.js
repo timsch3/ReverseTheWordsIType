@@ -1,4 +1,3 @@
-function reverseInputString() {
-    let string = document.getElementById('textInput').value
-    document.getElementById('output').innerHTML = string.includes(' ') ? string.split(' ').map(elt => elt.split('').reverse().join('')).join(' ') : string.split('').reverse().join('')
+function reverseInputStringWords() {
+    document.getElementById('output').innerHTML = document.getElementById('textInput').value.split(' ').map(e => e.split('').reverse().join('')).join(' ')
 }
